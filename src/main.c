@@ -18,11 +18,6 @@ typedef enum {
 } Game_Screen;
 
 typedef struct {
-    char *name;
-    Vector2 vec;
-} Entry;
-
-typedef struct {
     Game_Screen current_screen;
     Texture2D intro_texture;
 } Game_Data;
